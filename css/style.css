@@ -2,7 +2,7 @@ html, body{
   margin:0px; padding:0px;
 }
 .new{
-    background-image :url(https://github.com/thraddash/thraddash.github.io/tree/master/images/old_github/fog.jpg);
+    background-image :url("https://raw.githubusercontent.com/thraddash/thraddash.github.io/master/images/old_github/fog.jpg");
      background-size:cover;
      background-position:center center;
      background-attachment:fixed;
