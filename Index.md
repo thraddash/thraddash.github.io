@@ -7,3 +7,4 @@
 
 * [2021-07-17-first-post](posts/2021-07-17-first-post.md)   
 
+<link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/thraddash/thraddash.github.io/master/icons/favicon.ico">
