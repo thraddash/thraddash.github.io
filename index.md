@@ -3,6 +3,7 @@
 # Finding things that interest me
 
 #### Welcome to my Blog (Random projects, POC and DevOps notes)
----
+<br/>
 
-* [2021-07-17-first-post](posts/2021-07-17-first-post.md)
+* [2021-07-17-first-post](posts/2021-07-17-first-post.md)   
+
