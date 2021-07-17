@@ -1,4 +1,4 @@
-<a href="#" onclick="return false;"><img align="left" src="https://github.com/thraddash/thraddash.github.io/blob/master/avatar/light-dark-avatar.png"  height="150" width="150" /></a>
+<a href="https://thraddash.github.io"><img align="left" src="https://github.com/thraddash/thraddash.github.io/blob/master/avatar/light-dark-avatar.png"  height="150" width="150" /></a>
 
 # Finding things that interest me
 - 📫 How to reach me **thraddash@spathiwa.com**  
