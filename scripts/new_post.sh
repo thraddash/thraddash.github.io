@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
+# $0 is the name of the script
 if [ $# -lt 1 ]; then
   echo "usage: $0 [ post-title-separated-by-dashes ]"
   exit 1
@@ -8,9 +9,15 @@ fi
 
 #FRONT_MATTER_DATE=$(date +"%Y-%m-%d %k:%M:%S %z")
 
+# $* one parameter consisting of all the parameter added together
+
+# sed cmd substitue spaces with dash globally
+SPACE_TO_DASH=`echo $* | sed 's/ /-/g'`
+
 #echo "$FRONT_MATTER"
 
-FILENAME="$(date +"%Y-%m-%d")-$1.md"
+#FILENAME="$(date +"%Y-%m-%d")-$1.md"
+FILENAME="$(date +"%Y-%m-%d")-$SPACE_TO_DASH.md"
 
 echo "$FILENAME"
 
