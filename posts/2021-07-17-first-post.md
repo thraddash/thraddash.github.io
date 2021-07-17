@@ -1,4 +1,4 @@
-## create a simple Github blog page without jekyll   
+## create a simple github blog page without jekyll   
 - updated new_post.sh to generate post markdown file
 
 ```bash
