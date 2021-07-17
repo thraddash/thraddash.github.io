@@ -1,12 +1,12 @@
 ## create a simple Github blog page without jekyll   
 - updated new_post.sh to generate post markdown file
 
-<table style="border:1px solid black";><tr><td>
+```bash
 ./scripts/new_post.sh this-is-second-post
-<p></p>
-OUTPUT:<p>
+
+OUTPUT:
 /posts/2021-07-17-this-is-second-post.md
- </td></tr></table>
+```
 
 ## retired old github page running on jekyll  
 <img align="left" src="https://raw.githubusercontent.com/thraddash/thraddash.github.io/master/images/old_github/old_homepage.png"  width="400" height="auto" />
