@@ -10,7 +10,7 @@ fi
 
 #echo "$FRONT_MATTER"
 
-FILENAME="$(date +"%Y-%m-%d")-$1.markdown"
+FILENAME="$(date +"%Y-%m-%d")-$1.md"
 
 echo "$FILENAME"
 
