@@ -2,6 +2,6 @@
 # Finding things that interest me
 #### Welcome to my Blog (Random projects, POC and DevOps notes)
 
+* [2021-07-17-nodejs-recipe-app](posts/2021-07-17-nodejs-recipe-app.md)
 * [2021-07-17-new-github-no-jekyll](posts/2021-07-17-new-github-no-jekyll.md)
 * [2021-07-16-decomission-github-jekyll-site](posts/2021-07-16-decomission-github-jekyll-site.md) 
-   
