@@ -1,4 +1,7 @@
-# Create a simple github blog page without jekyll   
+# Create a simple github blog page without jekyll  
+- simple is better, less prone to errors  
+- no more requirements to keep package and modules up-to-date   
+
 ## :scroll: Automate blog post with bash script
 <br/>
 

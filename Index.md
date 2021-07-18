@@ -3,4 +3,5 @@
 #### Welcome to my Blog (Random projects, POC and DevOps notes)
 <br clear="left"/>
 
-* [2021-07-17-first-post](posts/2021-07-17-first-post.md)   
+* [2021-07-17-decomission-github-jekyll-site](posts/2021-07-17-decomission-github-jekyll-site.md) 
+* [2021-07-16-first-post](posts/2021-07-16-first-post.md)   
