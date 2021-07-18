@@ -2,7 +2,7 @@
 ## :scroll: Automate blog post with bash script
 <br/>
 
-Location: /posts/**new_post.sh**  
+Location: ./scripts/**new_post.sh**  
 https://github.com/thraddash/thraddash.github.io/blob/master/scripts/new_post.sh
 
 ## How to use:   
