@@ -9,7 +9,7 @@ echo
 echo "=====> Example: 2021-07-17-first-post.md"
 echo "=====> Control-C anytime to quit"
 echo
-echo "Enter your blog title:"
+echo "Enter a blog title:"
 
 read TS
 if [[ -z $TS ]]; then
@@ -30,7 +30,7 @@ echo "filename created: $FILENAME"
 
 # if file exists vi file, else vi newly created file 
 if [ -f "../posts/$FILENAME" ]; then
-  vi ../posts/"$FILENAME"
+  vi ./posts/"$FILENAME"
 else 
-  vi ../posts/"$FILENAME"
+  vi ./posts/"$FILENAME"
 fi
