@@ -2,7 +2,7 @@
 - simple is better, less prone to errors  
 - no more requirements to keep package and modules up-to-date   
 
-## :scroll: Automate blog post with bash script
+## Automate blog post with bash script
 <br/>
 
 Location: **./scripts/new_post.sh**  
