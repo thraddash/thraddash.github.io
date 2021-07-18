@@ -65,7 +65,7 @@ $* is one parameter consisting of all the parameter added together
 ```
 
 **Additional info:**  
-https://www.thegeekstuff.com/2010/05/bash-shell-special-parameters/  
+[bash shell special parameters](https://www.thegeekstuff.com/2010/05/bash-shell-special-parameters/)
 
 
 
