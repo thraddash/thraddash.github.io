@@ -1,43 +1,36 @@
 #!/usr/bin/env bash
 set -e
 
-# $0 is the name of the script
-if [ $# -lt 1 ]; then
-  echo "usage: $0 [ post-title-separated-by-dashes ]"
-  exit 1
+echo
+echo "=====> Generate A New Blog POST:"
+echo "=====> Current date will be appended to the front of file"
+echo "=====> Any spaces in the title will be converted into dashes"
+echo 
+echo "=====> Example: 2021-07-17-first-post.md"
+echo "=====> Control-C anytime to quit"
+echo
+echo "Enter your blog title:"
+
+read TS
+if [[ -z $TS ]]; then
+  echo "=====> you didn't enter anything... aborting"
+  exit
 fi
+
+# sed cmd substitue spaces with dash globally
+SPACE_TO_DASH=`echo $TS | sed 's/ /-/g'`
 
 #FRONT_MATTER_DATE=$(date +"%Y-%m-%d %k:%M:%S %z")
 
-# $* one parameter consisting of all the parameter added together
-
-# sed cmd substitue spaces with dash globally
-SPACE_TO_DASH=`echo $* | sed 's/ /-/g'`
-
-#echo "$FRONT_MATTER"
-
-#FILENAME="$(date +"%Y-%m-%d")-$1.md"
+# Append date to filename
 FILENAME="$(date +"%Y-%m-%d")-$SPACE_TO_DASH.md"
 
-echo "$FILENAME"
+echo
+echo "filename created: $FILENAME"
 
-# https://stackoverflow.com/questions/1167746/how-to-assign-a-heredoc-value-to-a-variable-in-bash
-#define(){ IFS='\n' read -r -d '' ${1} || true; }
-
-<<comment
-define FRONT_MATTER <<EOF
----
-layout: post
-title:  ""
-date:   $FRONT_MATTER_DATE
-categories: 
----
-EOF'
-comment
-
+# if file exists vi file, else vi newly created file 
 if [ -f "../posts/$FILENAME" ]; then
   vi ../posts/"$FILENAME"
-else
-  #echo "$FRONT_MATTER" > ../posts/"$FILENAME"
+else 
   vi ../posts/"$FILENAME"
 fi
