@@ -20,8 +20,16 @@ git clone https://github.com/thraddash/food2.git
 install node v14.15.5
 install npm 6.14.11
 npm install --global yarn
+cp .env.sample > .env
 yarn dev
 ```
+### Note: require creation of .env file 
+**cp .env.sample > .env**   
+```
+REACT_APP_LOCALHOST = localhost
+```
+If you are hosting the app on a server, rename **"localhost"** in .env to the server hostname   
+
 3. **yarn dev** - execute the cmds in package.json   
 spins up a front-end Nodejs server and a back-end client running Express.    
 
