@@ -28,7 +28,7 @@ yarn dev
 ```
 REACT_APP_LOCALHOST = localhost
 ```
-If you are hosting the app on a server, rename **"localhost"** in .env to the server hostname   
+If you are hosting the app on a server, rename **"localhost"** to the name of your host server in the .env file   
 
 3. **yarn dev** - execute the cmds in package.json   
 spins up a front-end Nodejs server and a back-end client running Express.    
