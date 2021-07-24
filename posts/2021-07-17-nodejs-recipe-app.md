@@ -7,7 +7,7 @@
 # About the Project
 - Learn how to code in React/Nodejs by writing a Recipe App.  
 - A way to organized my list of cooking recipes.  
-- Ultilize[Netlify](https://www.netlify.com/) to deploy and host content for testing.  
+- Ultilize [Netlify](https://www.netlify.com/) to deploy and host content for testing.  
 <br/>
 
 ## Starting the App
