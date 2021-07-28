@@ -1,6 +1,14 @@
 ### [Github Recipe App Repo](https://github.com/thraddash/food2/)
 ### [Recipe App Demo Click Here](https://happy-shannon-69aac4.netlify.app/)   
 
+## Kaban board for Recipe App
+List of completed features, backlog items and future upgrades.    
+### [Kanban Board Click Here ](https://github.com/thraddash/food2/projects/1)    
+
+##### Status:  
+###### 📕 TBD  📙 Minor  📘 InProgress  📗 Completed  
+<br/>
+
 <img src="https://raw.githubusercontent.com/thraddash/thraddash.github.io/master/images/recipe_app.png" width="800" height="auto">
 <br/>
 
@@ -70,9 +78,3 @@ Section 3: Video listing using material ui carousel.
 9. Created a download page to backup the recipes and products info in json format.   
 <br/>
 
-## Kaban board for Recipe App
-List of completed features, backlog items and future upgrades.    
-### [Kanban Board Click Here ](https://github.com/thraddash/food2/projects/1)    
-
-##### Status:  
-###### 📕 TBD  📙 Minor  📘 InProgress  📗 Completed  
