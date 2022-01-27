@@ -4,7 +4,12 @@
 - Replicate data between two FreeBSD servers using Wireguard
 
 ## Testing:
-- Install Freebsd on 1TB storage device, create new zpool on 1TB storage device, destroy zpool  
+- Install FreeBSD on 1TB storage device, create new zpool on 1TB storage device, destroy zpool
+- snapshot data from one zpool and replicate data over to another pool
+- verify data with rhash
+- setup samba access
+- setup another FreeBSD server
+- setup/test wireguard  
 
 ### snapshot.sh
 - snapshot data from zpool, transfer data from one pool to another
