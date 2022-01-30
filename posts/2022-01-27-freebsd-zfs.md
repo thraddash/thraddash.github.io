@@ -1,7 +1,9 @@
-# FreeBSD & Zerotier
+# FreeBSD - Zerotier/Nebula testing
 
 ## About the Project
-- Replicate data between two FreeBSD servers using Zerotier
+- Replicate data between two FreeBSD servers using Zerotier/Nebula  
+- https://www.zerotier.com/  
+- https://github.com/slackhq/nebula  
 
 ## Testing:
 - Install FreeBSD on 1TB storage device, create new zpool on 1TB storage device, destroy zpool (DONE)
@@ -9,7 +11,7 @@
 - verify data with rhash (DONE)
 - setup samba access (DONE)
 - setup another FreeBSD server (In Progress)
-- setup/test Zerotier(TBD)
+- setup/test Zerotier & Nebula (TBD)
 
 ### snapshot.sh (In Progress)
 - snapshot data from zpool, transfer data from one pool to another
