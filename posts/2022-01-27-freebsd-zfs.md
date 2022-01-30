@@ -1,7 +1,7 @@
-# FreeBSD & Wireguard
+# FreeBSD & Zerotier
 
 ## About the Project
-- Replicate data between two FreeBSD servers using Wireguard
+- Replicate data between two FreeBSD servers using Zerotier
 
 ## Testing:
 - Install FreeBSD on 1TB storage device, create new zpool on 1TB storage device, destroy zpool (DONE)
@@ -9,7 +9,7 @@
 - verify data with rhash (DONE)
 - setup samba access (DONE)
 - setup another FreeBSD server (In Progress)
-- setup/test wireguard (TBD)
+- setup/test Zerotier(TBD)
 
 ### snapshot.sh (In Progress)
 - snapshot data from zpool, transfer data from one pool to another
