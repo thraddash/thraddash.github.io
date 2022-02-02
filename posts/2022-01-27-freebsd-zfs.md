@@ -13,17 +13,17 @@
 - setup another FreeBSD server (In Progress)
 - setup/test Zerotier & Nebula (TBD)
 
-### snapshot.sh (In Progress)
+### snapshot.sh (DONE)
 - snapshot data from zpool, transfer data from one pool to another
 ```
 ```
 
-### transfer.sh (PENDING features)
+### transfer.sh (PENDING)
 - transfer data from one pool to another 
 ```
 ```
 
-### verify.sh (DONE)
+### verify.sh (PENDING)
 - verify data transfer using rhash
 ```
 ```
