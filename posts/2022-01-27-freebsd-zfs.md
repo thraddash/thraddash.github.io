@@ -13,8 +13,8 @@
 - setup another FreeBSD server (In Progress)
 - setup/test Zerotier & Nebula (TBD)
 
-### snapshot.sh (DONE)
-- snapshot data from zpool, transfer data from one pool to another
+### rhash.sh (DONE)
+- snapshot data from zpool and create rhash file
 ```
 ```
 
@@ -24,7 +24,7 @@
 ```
 
 ### verify.sh (PENDING)
-- verify data transfer using rhash
+- verify data transfer using rhash file
 ```
 ```
 
@@ -35,4 +35,6 @@
 - enable samba 
 - grant guest access to share path
 - start samba service
-<br/>
+```
+
+```
