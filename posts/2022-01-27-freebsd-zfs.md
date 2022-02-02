@@ -5,6 +5,9 @@
 - https://www.zerotier.com/  
 - https://github.com/slackhq/nebula  
 
+### Automate repetitive tasks   
+- https://github.com/thraddash/zfs_setup   
+
 ## Testing:
 - Install FreeBSD on 1TB storage device, create new zpool on 1TB storage device, destroy zpool (DONE)
 - snapshot data from one zpool and replicate data over to another pool (DONE)
