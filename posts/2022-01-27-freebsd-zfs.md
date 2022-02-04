@@ -16,23 +16,24 @@
 - setup another FreeBSD server (In Progress)
 - setup/test Zerotier & Nebula (TBD)
 
-### rhash.sh (DONE)
-- snapshot data from zpool and create rhash file
+### snapshot.sh (DONE)
+- snapshot data from zpool
 ```
 ```
 
-### transfer.sh (PENDING)
-- transfer data from one pool to another 
+### transfer.sh (DONE)
+- transfer <source zpool> data to <destination zpool> , <destination dataset>.rhash file will be generated 
 ```
 ```
 
-### verify.sh (PENDING)
-- verify data transfer using rhash file
+### verify.sh (DONE)
+- verify data between <source zpool> & <destination zpool>  
+- reads <destination dataset>.rhash files and generates <destination dataset.rhash.out file  
 ```
 ```
 
 ### samba_setup.sh (DONE)
-- automate samba access from Windows to FreeBSD zpool (samba_setup.sh)
+- run this script last to automate samba access from Windows to FreeBSD zpool (samba_setup.sh)
 - adduser guest/guest
 - generate /usr/local/etc/smb4.conf
 - enable samba 
