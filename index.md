@@ -2,6 +2,7 @@
 
 # Finding things that interest me
 #### Welcome to my Blog (Random projects, POC and DevOps notes)
+* [2024-07-24-swimming-website-mockup](posts/2024-07-24-swimming-website-mockup.md)
 * [2022-04-23-starwars](posts/2022-04-23-starwars.md)
 * [2022-01-27-freebsd-zfs](posts/2022-01-27-freebsd-zfs.md)
 * [2021-07-17-nodejs-recipe-app](posts/2021-07-17-nodejs-recipe-app.md)
